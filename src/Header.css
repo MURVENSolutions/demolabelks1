@@ -1,0 +1,27 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+#header > h1,#wholeheader > h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 50px;
+    color: rgb(48, 27, 48);
+}
+#header > h2{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 40vw;
+    color: rgb(73, 143, 73);
+}
+span{
+    text-decoration: underline;
+}
+#wholeheader{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
